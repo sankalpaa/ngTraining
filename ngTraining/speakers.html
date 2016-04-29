@@ -1,0 +1,15 @@
+﻿<div>
+    <h1>Speakers</h1>
+    <div ng-show="speakers===undefined">
+        <h3>Loading.......</h3>
+    </div>
+    <div ng-show="speakers!==undefined">
+        Find:
+        <input type="text" ng-model="findName" />
+        <ul ng-repeat="speaker in speakers |filter:findName">
+            <li>
+                <list-item name="{{speaker.name}}"></list-item>                
+            </li>
+        </ul>
+    </div>
+</div>
