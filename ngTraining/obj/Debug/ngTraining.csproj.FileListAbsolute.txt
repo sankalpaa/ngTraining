@@ -17,3 +17,4 @@ H:\Sankalpa\Projects\ngTraining\ngTraining\bin\Microsoft.CodeDom.Providers.DotNe
 H:\Sankalpa\Projects\ngTraining\ngTraining\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 H:\Sankalpa\Projects\ngTraining\ngTraining\obj\Debug\ngTraining.dll
 H:\Sankalpa\Projects\ngTraining\ngTraining\obj\Debug\ngTraining.pdb
+H:\Sankalpa\Projects\ngTraining\ngTraining\obj\Debug\ngTraining.csprojResolveAssemblyReference.cache

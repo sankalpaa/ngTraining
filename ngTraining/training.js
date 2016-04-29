@@ -1,4 +1,4 @@
-﻿var training = angular.module('trainingApp', []);
+﻿
 training.controller('trainingController', function ($scope) {
     $scope.trainings = [];
     $scope.add = function (name, duration) {
