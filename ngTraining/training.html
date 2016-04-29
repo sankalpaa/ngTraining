@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body ng-app="trainingApp" ng-controller="trainingController">
+    <h1>Trainings</h1>
+    <div>
+        <form name="createTraining">
+            <h3>{{training.name |uppercase}}</h3>
+            Name : <input type="text" ng-model="training.name" required="" /> <br />
+            Duration : <input type="number" ng-model="training.duration" ng-init="training.duration=4" /> hourse <br />
+            <input type="submit" value="Add" ng-disabled="createTraining.$invalid" ng-click="add(training.name,training.duration)" />
+        </form>
+    </div>
+    <div>
+        <ul ng-repeat="training in trainings |orderBy:'Name'">
+            <li>
+                {{training.Name}}
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+<script src="Scripts/angular.js"></script>
+<script src="training.js"></script>
+
